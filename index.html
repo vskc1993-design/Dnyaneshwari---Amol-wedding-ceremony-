@@ -1,166 +1,252 @@
 <!DOCTYPE html>
 <html lang="mr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#6d243d">
-<title>ज्ञानेश्वरी ♥ अमोल | शुभविवाह</title>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@400;500;600;700&family=Tiro+Devanagari+Marathi:ital@0;1&display=swap');
-:root{--wine:#70283f;--rose:#a94f69;--gold:#c49a54;--cream:#fffaf3;--ink:#49323a}
-*{box-sizing:border-box}html{scroll-behavior:smooth}
-body{margin:0;background:var(--cream);color:var(--ink);font-family:'Hind Vadodara',sans-serif}
-.hero{min-height:92vh;display:grid;place-items:center;text-align:center;padding:48px 18px;position:relative;overflow:hidden;background:radial-gradient(circle at 50% 25%,#fff 0,#fff8f0 46%,#f5e4e3 100%)}
-.hero:before,.hero:after{content:"✿";position:absolute;color:#d7b77d;font-size:110px;opacity:.22}
-.hero:before{top:25px;left:5%}.hero:after{bottom:20px;right:5%}
-.frame{max-width:760px;width:100%;padding:42px 22px;border:1px solid #d6b779;outline:1px solid #d6b779;outline-offset:8px;border-radius:180px 180px 24px 24px;background:#ffffff9c}
-.kicker{letter-spacing:3px;color:var(--rose);font-weight:600}
-.om{font-size:34px;color:var(--gold);margin:0 0 10px}
-h1,h2,.names{font-family:'Tiro Devanagari Marathi',serif}
-h1{font-size:clamp(34px,7vw,60px);line-height:1.35;color:var(--wine);margin:14px 0}
-.names{font-size:clamp(27px,5vw,43px);color:var(--wine);margin:22px 0}
-.heart{color:#b64d68;padding:0 12px;font-size:.75em}
-.subtitle{font-size:18px;line-height:1.8}
-section{padding:58px 18px;max-width:1000px;margin:auto}
-.section-title{text-align:center;color:var(--wine);font-size:30px;margin:0 0 28px}
-.section-title:after{content:"";display:block;width:70px;height:2px;background:var(--gold);margin:12px auto}
-.count-wrap{background:linear-gradient(135deg,#6d243d,#9b4960);color:white;text-align:center;padding:48px 16px}
-.count-wrap h2{font-size:30px;margin:0 0 8px}
-.countdown{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:25px}
-.time{min-width:82px;padding:15px 12px;border:1px solid #e4c98f;border-radius:14px;background:#ffffff12}
-.time strong{display:block;font-size:32px;line-height:1.2}.time span{font-size:14px;color:#f6dfc1}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
-.card{background:white;border:1px solid #eadbc7;border-radius:18px;padding:24px;box-shadow:0 8px 25px #6d243d0b;text-align:center}
-.card h3{color:var(--wine);font-size:23px;margin:4px 0 12px}
-.card p{line-height:1.9;margin:5px 0}
-.date{color:var(--rose);font-weight:700}
-.gallery-tools{text-align:center;margin:0 auto 20px}
-input[type=file]{max-width:100%;padding:10px;border:1px dashed var(--gold);border-radius:10px;background:white}
-.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}
-.gallery img{width:100%;height:220px;object-fit:cover;border-radius:14px;border:3px solid white;box-shadow:0 3px 14px #4a243322}
-.empty{padding:34px 15px;text-align:center;border:1px dashed #d6b779;border-radius:14px;color:#866a70}
-.maplink,.btn{display:inline-block;text-decoration:none;background:var(--wine);color:white;padding:13px 22px;border-radius:30px;margin-top:14px}
-.maplink:hover,.btn:hover{background:var(--rose)}
-footer{text-align:center;padding:35px 15px;background:#f3e5df;color:var(--wine);line-height:1.8}
-.small{font-size:14px;color:#7b626a}
-@media(max-width:480px){.frame{padding:35px 14px}.time{min-width:68px}.time strong{font-size:26px}.hero{min-height:82vh}}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>शुभविवाह - ज्ञानेश्वरी आणि अमोल</title>
+  
+  <!-- सुंदर मराठी फॉन्ट (Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@0;1&family=Yatra+One&display=swap" rel="stylesheet">
+
+  <style>
+    /* बेसिक डिझाईन आणि फॉन्ट */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Tiro Devanagari Marathi', serif;
+      background-color: #fffbf0;
+      color: #333;
+      text-align: center;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Yatra One', cursive;
+      color: #8b0000;
+    }
+
+    /* 1. मुख्य हेडर / बॅनर (पहिला बॅकग्राउंड फोटो) */
+    header {
+      background: linear-gradient(rgba(139, 0, 0, 0.75), rgba(139, 0, 0, 0.75)), url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      padding: 60px 20px;
+      border-bottom: 5px solid #d4af37;
+    }
+
+    header h1 {
+      color: #ffd700;
+      font-size: 3rem;
+      margin: 15px 0;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+
+    .couple-name {
+      font-size: 2.2rem;
+      color: #fff;
+      margin: 20px 0;
+    }
+
+    .couple-name span {
+      color: #ff4d4d;
+    }
+
+    /* जनरल सेक्शन आणि कार्ड्स (प्रत्येकासाठी वेगळा बॅकग्राउंड फोटो) */
+    .bg-section-1 {
+      background: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), url('https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1200&q=80');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .bg-section-2 {
+      background: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), url('https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1200&q=80');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .bg-section-3 {
+      background: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), url('https://images.unsplash.com/photo-1545232979-fbf82fdc3f28?auto=format&fit=crop&w=1200&q=80');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+      border: 1px solid #f1e0ac;
+    }
+
+    .info-card {
+      background: rgba(250, 244, 232, 0.9);
+      padding: 20px;
+      margin: 15px 0;
+      border-left: 5px solid #8b0000;
+      border-radius: 8px;
+      text-align: left;
+    }
+
+    /* वधू-वर फोटो अपलोड करण्यासाठीची जागा */
+    .photo-placeholder {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      background-color: #ddd;
+      border: 3px dashed #8b0000;
+      margin: 0 auto 10px auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #666;
+      font-size: 0.9rem;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .couple-flex {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .couple-box {
+      flex: 1;
+      min-width: 250px;
+      background: rgba(255, 255, 255, 0.95);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .map-btn {
+      display: inline-block;
+      background: #8b0000;
+      color: #fff;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      margin-top: 15px;
+      box-shadow: 0 4px 10px rgba(139,0,0,0.3);
+    }
+
+    .map-btn:hover {
+      background: #a00000;
+    }
+
+    /* फ्लोटिंग म्युझिक बटण */
+    .floating-music-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+      background: #d4af37;
+      color: #8b0000;
+      border: 2px solid #8b0000;
+      padding: 10px 18px;
+      border-radius: 50px;
+      font-weight: bold;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      cursor: pointer;
+    }
+
+    footer {
+      background: #8b0000;
+      color: #fff;
+      padding: 25px;
+      margin-top: 40px;
+      border-top: 5px solid #ffd700;
+    }
+  </style>
 </head>
 <body>
-<header class="hero">
-  <div class="frame">
-    <p class="om">॥ श्री गणेशाय नमः ॥</p>
-    <p class="kicker">सस्नेह निमंत्रण</p>
+
+  <!-- बॅकग्राउंड म्युझिक (Audio Player) -->
+  <audio id="weddingAudio" loop autoplay>
+    <source src="wedding-music.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- म्युझिक चालू/बंद करण्याचे बटण -->
+  <button class="floating-music-btn" onclick="toggleAudio()">🎵 संगीत चालू / बंद</button>
+
+  <!-- हेडर सेक्शन -->
+  <header>
+    <p>॥ श्री गणेशाय नमः ॥</p>
+    <p style="font-size: 1.2rem; color: #ffd700;">सस्नेह निमंत्रण</p>
     <h1>शुभविवाह</h1>
-    <p class="subtitle">आमच्या आनंदाच्या क्षणी आपण सहकुटुंब उपस्थित राहून<br>वधू-वरांना शुभाशीर्वाद द्यावेत, ही नम्र विनंती.</p>
-    <div class="names">ज्ञानेश्वरी <span class="heart">♥</span> अमोल</div>
-    <p class="subtitle">यांचा शुभविवाह</p>
-    <p class="date">सोमवार · २२ फेब्रुवारी २०२७ · दुपारी १२:३१ वाजता</p>
-  </div>
-</header>
+    <p>स्नेह, आदर आणि प्रेमाच्या या सुंदर बंधनात गाठ बांधली जात असताना,<br>आपल्या समृद्ध उपस्थितीने आमचा आनंद द्विगुणीत करावा, ही नम्र विनंती.</p>
+    
+    <div class="couple-name">ज्ञानेश्वरी <span>♥</span> अमोल</div>
+    
+    <p style="font-size: 1.3rem; color: #ffd700;">सोमवार · २२ फेब्रुवारी २०२७ · दुपारी १२:३१ वाजता</p>
+  </header>
 
-<div class="count-wrap">
-  <h2>लग्नसोहळ्याची आतुरता…</h2>
-  <p>आपल्या भेटीचे क्षण जवळ येत आहेत!</p>
-  <div class="countdown" aria-live="polite">
-    <div class="time"><strong id="days">--</strong><span>दिवस</span></div>
-    <div class="time"><strong id="hours">--</strong><span>तास</span></div>
-    <div class="time"><strong id="minutes">--</strong><span>मिनिटे</span></div>
-    <div class="time"><strong id="seconds">--</strong><span>सेकंद</span></div>
-  </div>
-  <p id="count-message" class="small" style="color:#f7e7df;margin-top:18px"></p>
-</div>
+  <!-- वधू-वर परिचय सेक्शन -->
+  <div class="container bg-section-1">
+    <h2>वधू-वर परिचय</h2>
+    <div class="couple-flex">
+      
+      <div class="couple-box">
+        <div class="photo-placeholder">वधूचा फोटो<br>येथे येईल</div>
+        <h3 style="margin:10px 0;">ज्ञानेश्वरी</h3>
+        <p>श्री. राजेश आबासाहेब पवार यांची ज्येष्ठ कन्या</p>
+        <p style="font-size: 0.95rem;"><b>पत्ता:</b> रामपुरी (लिंबराज), ता. गेवराई, जि. बीड.</p>
+      </div>
 
-<section>
-  <h2 class="section-title">वधू-वर परिचय</h2>
-  <div class="cards">
-    <article class="card">
-      <h3>वधू – ज्ञानेश्वरी</h3>
-      <p>राजेश आबासाहेब पवार यांची ज्येष्ठ कन्या</p>
-      <p>रा. रामपुरी (लिंबराज),<br>ता. गेवराई, जि. बीड.</p>
-    </article>
-    <article class="card">
-      <h3>वर – अमोल</h3>
-      <p>बाप्पासाहेब अण्णासाहेब जगताप यांचे द्वितीय चिरंजीव</p>
-      <p>रा. पांडे पोखरी,<br>ता. आष्टी, जि. जालना.</p>
-    </article>
-  </div>
-</section>
+      <div class="couple-box">
+        <div class="photo-placeholder">वराचा फोटो<br>येथे येईल</div>
+        <h3 style="margin:10px 0;">अमोल</h3>
+        <p>श्री. बाप्पासाहेब अण्णासाहेब जगताप यांचे द्वितीय चिरंजीव</p>
+        <p style="font-size: 0.95rem;"><b>पत्ता:</b> पांडे पोखरी, ता. आष्टी, जि. जालना.</p>
+      </div>
 
-<section>
-  <h2 class="section-title">शुभकार्याचे कार्यक्रम</h2>
-  <div class="cards">
-    <article class="card">
+    </div>
+  </div>
+
+  <!-- शुभकार्याचे कार्यक्रम सेक्शन -->
+  <div class="container bg-section-2">
+    <h2>शुभकार्याचे कार्यक्रम</h2>
+    <div class="info-card">
       <h3>हळद समारंभ</h3>
-      <p class="date">रविवार, २१ फेब्रुवारी २०२७</p>
-      <p>सायंकाळी ०६:०० वाजता</p>
-    </article>
-    <article class="card">
-      <h3>मंगल परिणय</h3>
-      <p class="date">सोमवार, २२ फेब्रुवारी २०२७</p>
-      <p>दुपारी १२:३१ वाजता</p>
-    </article>
+      <p>🗓️ <b>तारीख:</b> रविवार, २१ फेब्रुवारी २०२७</p>
+      <p>⏰ <b>वेळ:</b> सायंकाळी ०६:०० वाजता</p>
+    </div>
+    <div class="info-card">
+      <h3>शुभ विवाह</h3>
+      <p>🗓️ <b>तारीख:</b> सोमवार, २२ फेब्रुवारी २०२७</p>
+      <p>⏰ <b>वेळ:</b> दुपारी १२:३१ वाजता (शुभमुहूर्तावर)</p>
+    </div>
   </div>
-</section>
 
-<section>
-  <h2 class="section-title">आठवणींची फोटो गॅलरी</h2>
-  <div class="gallery-tools">
-    <p>वधू-वरांचे फोटो निवडा. निवडलेले फोटो या पानावर दिसतील.</p>
-    <input id="photoInput" type="file" accept="image/*" multiple>
-    <p class="small">टीप: सध्या फोटो तुमच्या या ब्राउझरमध्येच दिसतील. वेबसाइट ऑनलाइन टाकताना फोटो फाइल्सही जोडाव्या लागतील.</p>
+  <!-- विवाहस्थळ सेक्शन -->
+  <div class="container bg-section-3">
+    <h2>विवाहस्थळ</h2>
+    <h3 style="color:#8b0000; font-size:1.5rem;">संत लिंबराज महाराज संस्थान</h3>
+    <p style="font-size: 1.1rem;">रामपुरी (लिंबराज), ता. गेवराई, जि. बीड.</p>
+    <a href="https://maps.app.goo.gl/k8foVCjPz1Fs7hbv9" target="_blank" class="map-btn">📍 Google Maps वर स्थळ पहा</a>
   </div>
-  <div id="gallery" class="gallery"><div class="empty" id="empty">फोटो अजून जोडलेले नाहीत.<br>वरील “फोटो निवडा” पर्यायातून फोटो जोडा.</div></div>
-</section>
 
-<section style="text-align:center">
-  <h2 class="section-title">विवाहस्थळ</h2>
-  <div class="card">
-    <h3>संत लिंबराज महाराज संस्थान</h3>
-    <p>रामपुरी (लिंबराज), ता. गेवराई, जि. बीड.</p>
-    <a class="maplink" href="https://maps.app.goo.gl/k8foVCjPz1Fs7hbv9" target="_blank" rel="noopener">Google Maps वर स्थळ पहा ↗</a>
-  </div>
-</section>
+  <footer>
+    <div style="font-size: 1.2rem;">❀ मंगलमय शुभेच्छा ❀</div>
+    <h3 style="color:#ffd700; margin: 10px 0;">ज्ञानेश्वरी ♥ अमोल</h3>
+    <p>आपल्या उपस्थितीने सोहळ्याची शोभा वाढवा!</p>
+  </footer>
 
-<footer>
-  <div style="font-size:25px;color:#bd8c50">❀ मंगलमय शुभेच्छा ❀</div>
-  <strong>ज्ञानेश्वरी ♥ अमोल</strong><br>
-  आपल्या उपस्थितीने सोहळ्याची शोभा वाढवा!
-</footer>
-
-<script>
-const target = new Date('2027-02-22T12:31:00+05:30').getTime();
-const ids = ['days','hours','minutes','seconds'];
-function updateCountdown(){
-  const now = Date.now(), diff = target-now;
-  if(diff <= 0){
-    ids.forEach(id => document.getElementById(id).textContent='०');
-    document.getElementById('count-message').textContent='आज आपल्या शुभविवाहाचा मंगलदिन आहे!';
-    return;
-  }
-  const values = [
-    Math.floor(diff/86400000),
-    Math.floor((diff%86400000)/3600000),
-    Math.floor((diff%3600000)/60000),
-    Math.floor((diff%60000)/1000)
-  ];
-  values.forEach((v,i)=>document.getElementById(ids[i]).textContent=new Intl.NumberFormat('mr-IN').format(v));
-  document.getElementById('count-message').textContent='२२ फेब्रुवारी २०२७, दुपारी १२:३१ पर्यंत';
-}
-updateCountdown(); setInterval(updateCountdown,1000);
-
-const input=document.getElementById('photoInput'), gallery=document.getElementById('gallery');
-input.addEventListener('change',()=>{
-  gallery.innerHTML='';
-  const files=[...input.files].filter(f=>f.type.startsWith('image/'));
-  if(!files.length){gallery.innerHTML='<div class="empty">फोटो निवडलेले नाहीत.</div>';return;}
-  files.forEach(file=>{
-    const img=document.createElement('img');
-    img.alt='वधू-वरांचा फोटो: '+file.name;
-    img.src=URL.createObjectURL(file);
-    gallery.appendChild(img);
-  });
-});
-</script>
+  <script>
+    function toggleAudio() {
+      var audio = document.getElementById("weddingAudio");
+      if (audio.paused) {
+        audio.play();
+      } else {
+        audio.pause();
+      }
+    }
+  </script>
 </body>
 </html>
